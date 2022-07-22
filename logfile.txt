@@ -1,0 +1,22 @@
+ I have read these parameters:
+
+ model                = harmonic
+ variant              = double
+ alpha1               =   0.50000000000000000     
+ alpha2               =    1.0000000000000000     
+ alpha3               =    0.0000000000000000     
+ damping              =    2.0000000000000000E-002
+ dramp                =    5.0000000000000001E-003
+ Theta                =    1.0000000000000000E-002
+ method               = MC
+ Nvar                =         201
+ Nvar2               =          50
+ NGridV              =          52
+ NGridX              =          52
+ Nbatch              =           1
+ Npart               =       20000
+ Nwrite              =         100
+ Ntherm              =           1
+ dT                  =   2.5000000000000001E-003
+ filesufix           =_test                                                                                               
+ ########################

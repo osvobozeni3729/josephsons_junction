@@ -1,0 +1,33 @@
+# An input file
+
+model harmonic
+variant double
+
+alpha1  0.5
+alpha2  1.0 
+alpha3  0.0
+damping 0.020
+dramp 0.005
+Theta 0.01
+
+#---------method---------
+method "MC"
+
+Nvar 201
+Nvar2 50
+NGridV 52   
+NGridX 52    
+Nbatch 1     
+
+Npart 20000
+Nwrite 100  
+                     
+Ntherm 1    
+ 
+dT 0.0025
+  
+#---------files--------
+
+filesufix "_test"
+
+ 
